@@ -4,7 +4,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib import parse
 client = discord.Client()
-token = "NzA4MTczNDQwNDAxNjcwMjI0.XsSLiw.gFtBF2c_S1Jb35UCCeTdyOQMWho"
+token = "TOKEN"
 guild_list = client.guilds
 @client.event
 async def on_ready():
